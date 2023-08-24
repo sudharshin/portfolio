@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Montserrat+Subrayada:wght@700&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Great+Vibes&family=Lumanosimo&family=Montserrat+Subrayada:wght@700&family=Roboto:wght@300&display=swap');
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.fpage
+{
+     min-height:180vh;
+     margin-left: 50px;
+     margin-right: 50px;
+}
+.con
+{
+    font-family:'great vibes',cursive;
+    font-size: 60px;
+    text-align: center;
+    padding:40px;
+    color:rgb(134, 9, 251);
+    text-shadow: 2px 2px rgba(246, 4, 45, 0.953);
+}
+.cs1
+{
+    display:grid;
+    grid-template-columns: 45% 45%;
+    column-gap:100px;
+    background-color:rgb(249, 252, 255);
+    width:100%;
+    min-height:100vh;
+    
+}
+.cc1
+{
+    display:grid;
+    grid-template-rows: 45% 45%;
+    row-gap:40px;
+    margin-left: 100px;
+}
+.cr1
+{
+    margin-top:30px;
+    background-color:rgb(252, 255, 255);
+    border-radius: 4px;
+}
+.cr2
+{
+    background-color: rgb(252, 255, 255);
+    border-radius: 4px;
+    padding:30px;
+}
+.cc2
+{
+    display:grid;
+    grid-template-rows: 45% 45%;
+    row-gap: 40px;
+    margin-right: 80px;
+}
+.crr1
+{
+    background-color: rgb(252, 255, 255);
+    border-radius: 4px;
+    margin-top:30px;
+}
+.crr2
+{
+    background-color:rgb(252, 255, 255);
+     border-radius: 4px;
+     padding:30px;
+}
+.cr1,.cr2,.crr1,.crr2{
+    text-align:center;
+    font-family:'Dancing script';
+    font-size:40px;
+}
+.p2,.p1,.p3,.p4
+{
+    font-size:25px;
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Montserrat+Subrayada:wght@700&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Great+Vibes&family=Lumanosimo&family=Montserrat+Subrayada:wght@700&family=Roboto:wght@300&display=swap');
+*{
+    
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.h
+{
+  font-family:'dancing script',cursive;
+  font-size:50px;
+  justify-content: center;
+  align-items: center;
+  color:blue;
+  text-shadow: 2px 2px aqua;
+}
+.f{
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+}
+
+.form-box {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top:100px;
+  min-height:60vh;
+  width:400px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom:20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.form-group .m {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.form-group button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.form-group button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.iconss 
+{
+    display:flex;
+    font-size:30px;
+}
+.iconss i{
+  padding-right:8px;
+}

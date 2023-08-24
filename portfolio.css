@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Montserrat+Subrayada:wght@700&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Great+Vibes&family=Lumanosimo&family=Montserrat+Subrayada:wght@700&family=Roboto:wght@300&display=swap');
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.firstpage
+{
+    display:flex;
+    justify-content: space-between;
+    min-height: 20vh;
+}
+.c1
+{
+    font-family: 'Great Vibes', cursive;
+    font-size: 60px;
+    color:blueviolet;
+        text-shadow: 2px 2px pink;
+    font-weight:thin;
+}
+ul a{
+    display: inline;
+    padding-right:40px;
+    font-size:30px;
+    color:crimson;
+    font-family:'dancing script',cursive;
+}
+ul a:hover{
+    border-bottom: 11px solid transparent;
+    border-bottom: 3px solid blueviolet;
+  color:blueviolet;
+}
+.secpage
+{
+    min-height:55vh;
+    display:grid;
+    grid-template-columns: 55% 40%;
+    column-gap: 20px;
+    width:100%
+}
+.abt
+{
+    font-family: 'great vibes';
+    font-weight:bold;
+    font-size:50px;
+    text-align: center;
+    color:darkblue;
+    padding:20px;
+}
+.span1{
+    color:cyan;
+    font-weight:bold;
+}
+.p{
+    font-size: 30px;
+  margin-left: 30px;
+  padding-bottom: 30px;
+}
+.bt1
+{
+    margin-left: 80px;
+    display:flex;
+    padding-right: 20px;
+ display: inline;
+}
+.b1,.b2
+{
+    height:40px;
+    width: 150px;
+    background-color: blue;
+    color:white;
+    border-radius:5px;
+    padding:2px;
+}
+.b1:hover,.b2:hover
+{
+    background-color:green;
+}
+.thirdpage
+{
+    min-height:50vh;
+    display:grid;
+    grid-template-columns: 50% 45%;
+    column-gap: 20px;
+    width:100%
+}
+.c5
+{
+    margin-left: 30px;
+}
+.c6
+{
+    font-weight:bold;
+    color:darkgray;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.c7
+{
+    font-size:25px;
+    font-family: roboto;
+}
+.icon1
+{
+    font-size:40px;
+}
+.icon1 i{
+    padding-right: 30px;
+}
+.c8 i{
+    font-size:40px;
+}
+.c8 li{
+    font-size:20px;
+    display:block;
+    padding:12px;
+    font-family: arial;
+}
+.fourpage
+{
+    min-height: 5vh;
+    background-color:#0F124D;
+    display:flex;
+    justify-content: space-between;
+}
+.foot1 i{
+    display: inline;
+    padding-right:30px;
+    font-size:30px;
+}
+.foot2
+{
+    color:#FDC221;
+    font-size:25px;
+}
